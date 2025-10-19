@@ -87,3 +87,6 @@ alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias fnd='grep -iR --exclude-dir=node_modules'
 alias hg='history | grep'
 alias dotfiles='/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# uv
+export PATH="/Users/asnead/.local/bin:$PATH"
