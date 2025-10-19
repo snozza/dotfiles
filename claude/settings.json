@@ -1,10 +1,34 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
   "includeCoAuthoredBy": false,
   "permissions": {
     "allow": [
-      "mcp__puppeteer__puppeteer:*",
-      "mcp__puppeteer__puppeteer:*",
-      "mcp__serena__serena:*",
+      "Bash(yarn test:*)",
+      "Bash(git add:*)",
+      "Bash(find:*)",
+      "Bash(yarn check-types)",
+      "mcp__puppeteer__puppeteer_navigate",
+      "WebFetch(domain:github.com)",
+      "mcp__puppeteer__puppeteer_screenshot",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "Bash(grep:*)",
+      "Bash(yarn lint)",
+      "Bash(rg:*)",
+      "Bash(lsof:*)",
+      "mcp__puppeteer__puppeteer_click",
+      "Bash(yarn lint:*)",
+      "mcp__puppeteer__puppeteer_evaluate",
+      "mcp__puppeteer__puppeteer_hover",
+      "Bash(git diff:*)",
+      "mcp__puppeteer__puppeteer_fill",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "mcp__browser-tools__getConsoleErrors",
+      "Bash(git commit:*)",
+      "Bash(yarn prettier:*)",
+      "Bash(git checkout:*)",
+      "Bash(mv:*)",
       "mcp__serena__initial_instructions",
       "mcp__serena__check_onboarding_performed",
       "mcp__serena__search_for_pattern",
@@ -17,7 +41,34 @@
       "mcp__serena__write_memory",
       "mcp__serena__replace_regex",
       "mcp__serena__think_about_whether_you_are_done",
-      "mcp__serena__summarize_changes"
+      "mcp__serena__summarize_changes",
+      "mcp__serena__find_symbol",
+      "mcp__serena__activate_project",
+      "mcp__serena__get_current_config",
+      "Bash(wc:*)",
+      "mcp__serena__replace_symbol_body",
+      "mcp__serena__read_memory",
+      "mcp__serena__switch_modes",
+      "Bash(npm run typecheck:*)",
+      "Bash(npm run check-types:*)",
+      "Bash(yarn vitest run:*)",
+      "mcp__browser-tools__takeScreenshot",
+      "Bash(git restore:*)",
+      "Bash(git push:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "mcp__puppeteer__puppeteer:*",
+      "mcp__puppeteer__puppeteer:*",
+      "Bash(yarn:*)",
+      "Bash(date)"
     ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "/bin/bash /Users/asnead/.claude/statusline-command.sh"
+  },
+  "alwaysThinkingEnabled": true,
+  "feedbackSurveyState": {
+    "lastShownTime": 1754086591019
   }
 }

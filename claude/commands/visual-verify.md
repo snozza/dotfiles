@@ -1,4 +1,4 @@
-I'll help you with the following task. Use puppeteer mcp to take screenshots and visually verify my work:
+I'll help you with the following task. IMPORTANT: Use puppeteer mcp to take screenshots and visually verify my work:
 
 $ARGUMENTS
 
